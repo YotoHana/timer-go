@@ -12,9 +12,9 @@ func main() {
 	for i := 0; i < s; i++ {
 		si := s - i
 		if si < 10 {
-			fmt.Printf("00:0%d\n", si)
+			fmt.Printf("00:0%d\r", si)
 		} else {
-			fmt.Printf("00:%d\n", si)
+			fmt.Printf("00:%d\r", si)
 		}
 		time.Sleep(1 * time.Second)
 	}
